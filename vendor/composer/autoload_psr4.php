@@ -140,6 +140,7 @@ return array(
     'PHPStan\\' => array($vendorDir . '/phpstan/phpstan-phpunit/src'),
     'OndraM\\CiDetector\\' => array($vendorDir . '/ondram/ci-detector/src'),
     'Migrify\\PhpConfigPrinter\\' => array($vendorDir . '/migrify/php-config-printer/src'),
+    'Migrify\\MigrifyKernel\\' => array($vendorDir . '/migrify/migrify-kernel/src'),
     'Jean85\\' => array($vendorDir . '/jean85/pretty-package-versions/src'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'Doctrine\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Inflector'),

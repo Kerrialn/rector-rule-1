@@ -40,7 +40,8 @@ final class Versions
   'doctrine/instantiator' => '1.3.1@f350df0268e904597e3bd9c4685c53e0e333feea',
   'doctrine/lexer' => '1.2.1@e864bbf5904cb8f5bb334f99209b48018522f042',
   'jean85/pretty-package-versions' => '1.5.0@e9f4324e88b8664be386d90cf60fbc202e1f7fc9',
-  'migrify/php-config-printer' => '0.3.33@628afb65248758cd32aacda5e807bd5b6a6e05b5',
+  'migrify/migrify-kernel' => '0.3.34@4305bc7f6946f0d471c27693d878619ab87ef43c',
+  'migrify/php-config-printer' => '0.3.34@9eafb7a4e16f2b10afa01ade6b3ed6e691539b68',
   'myclabs/deep-copy' => '1.10.1@969b211f9a51aa1f6c01d1d2aef56d3bd91598e5',
   'nette/finder' => 'v2.5.2@4ad2c298eb8c687dd0e74ae84206a4186eeaed50',
   'nette/robot-loader' => 'v3.3.0@737ff8ee1709eff053d9cc27e6c661d82395bd8b',
@@ -119,7 +120,7 @@ final class Versions
   'theseer/tokenizer' => '1.2.0@75a63c33a8577608444246075ea0af0d052e452a',
   'tracy/tracy' => 'v2.7.5@95b1c6e35d61df8ef91a4633ba3cf835d2d47e5e',
   'webmozart/assert' => '1.9.1@bafc69caeb4d49c39fd0779086c03a3738cbb389',
-  'k/rector-local' => 'No version set (parsed as 1.0.0)@',
+  'k/rector-local' => 'dev-master@66efe3b076b57ac9c7c8a9a2603c61db9df8c288',
 );
 
     private function __construct()

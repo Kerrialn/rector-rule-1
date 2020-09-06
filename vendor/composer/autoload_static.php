@@ -181,6 +181,7 @@ class ComposerStaticInit345b75ebd96440c3c822475ff23cd990
         'M' => 
         array (
             'Migrify\\PhpConfigPrinter\\' => 25,
+            'Migrify\\MigrifyKernel\\' => 22,
         ),
         'J' => 
         array (
@@ -738,6 +739,10 @@ class ComposerStaticInit345b75ebd96440c3c822475ff23cd990
         'Migrify\\PhpConfigPrinter\\' => 
         array (
             0 => __DIR__ . '/..' . '/migrify/php-config-printer/src',
+        ),
+        'Migrify\\MigrifyKernel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/migrify/migrify-kernel/src',
         ),
         'Jean85\\' => 
         array (

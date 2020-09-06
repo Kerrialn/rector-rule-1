@@ -499,34 +499,75 @@
         ]
     },
     {
-        "name": "migrify/php-config-printer",
-        "version": "0.3.33",
-        "version_normalized": "0.3.33.0",
+        "name": "migrify/migrify-kernel",
+        "version": "0.3.34",
+        "version_normalized": "0.3.34.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/migrify/php-config-printer.git",
-            "reference": "628afb65248758cd32aacda5e807bd5b6a6e05b5"
+            "url": "https://github.com/migrify/migrify-kernel.git",
+            "reference": "4305bc7f6946f0d471c27693d878619ab87ef43c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/628afb65248758cd32aacda5e807bd5b6a6e05b5",
-            "reference": "628afb65248758cd32aacda5e807bd5b6a6e05b5",
+            "url": "https://api.github.com/repos/migrify/migrify-kernel/zipball/4305bc7f6946f0d471c27693d878619ab87ef43c",
+            "reference": "4305bc7f6946f0d471c27693d878619ab87ef43c",
             "shasum": ""
         },
         "require": {
+            "php": ">=7.2",
+            "symfony/console": "^4.4|^5.1",
+            "symfony/dependency-injection": "^4.4|^5.1",
+            "symfony/http-kernel": "^4.4|^5.1",
+            "symplify/autowire-array-parameter": "^8.2",
+            "symplify/package-builder": "^8.2",
+            "symplify/smart-file-system": "^8.2"
+        },
+        "require-dev": {
+            "tracy/tracy": "^2.7"
+        },
+        "time": "2020-09-05T16:50:16+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Migrify\\MigrifyKernel\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Kernel for small CLI applications"
+    },
+    {
+        "name": "migrify/php-config-printer",
+        "version": "0.3.34",
+        "version_normalized": "0.3.34.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/migrify/php-config-printer.git",
+            "reference": "9eafb7a4e16f2b10afa01ade6b3ed6e691539b68"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/9eafb7a4e16f2b10afa01ade6b3ed6e691539b68",
+            "reference": "9eafb7a4e16f2b10afa01ade6b3ed6e691539b68",
+            "shasum": ""
+        },
+        "require": {
+            "migrify/migrify-kernel": "^0.3.34",
             "nette/utils": "^3.1",
             "nikic/php-parser": "^4.9",
-            "php": "^7.2|^8.0",
+            "php": ">=7.2",
             "symfony/http-kernel": "^4.4|^5.1",
-            "symplify/autowire-array-parameter": "^8.1.17",
-            "symplify/package-builder": "^8.1.17",
-            "symplify/smart-file-system": "^8.1.17"
+            "symplify/package-builder": "^8.2",
+            "symplify/smart-file-system": "^8.2"
         },
         "require-dev": {
             "phpunit/phpunit": "^8.5|^9.0",
-            "symplify/easy-testing": "^8.1.17"
+            "symplify/easy-testing": "^8.2"
         },
-        "time": "2020-09-03T23:18:08+00:00",
+        "time": "2020-09-05T17:00:27+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5248,12 +5289,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symplify/auto-bind-parameter.git",
-            "reference": "3febe21ca338003ff39a2ab3004716253a3c4e9e"
+            "reference": "8c71fa8581f1c0d3a32c6b01945a09bd99dcda06"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symplify/auto-bind-parameter/zipball/3febe21ca338003ff39a2ab3004716253a3c4e9e",
-            "reference": "3febe21ca338003ff39a2ab3004716253a3c4e9e",
+            "url": "https://api.github.com/repos/symplify/auto-bind-parameter/zipball/8c71fa8581f1c0d3a32c6b01945a09bd99dcda06",
+            "reference": "8c71fa8581f1c0d3a32c6b01945a09bd99dcda06",
             "shasum": ""
         },
         "require": {
@@ -5298,12 +5339,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symplify/autowire-array-parameter.git",
-            "reference": "0ff7f906320303beb7b500c696e19f144eee7ca3"
+            "reference": "29e1571a99b49ea4777f61728e296d78fd69ab0b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symplify/autowire-array-parameter/zipball/0ff7f906320303beb7b500c696e19f144eee7ca3",
-            "reference": "0ff7f906320303beb7b500c696e19f144eee7ca3",
+            "url": "https://api.github.com/repos/symplify/autowire-array-parameter/zipball/29e1571a99b49ea4777f61728e296d78fd69ab0b",
+            "reference": "29e1571a99b49ea4777f61728e296d78fd69ab0b",
             "shasum": ""
         },
         "require": {
@@ -5347,12 +5388,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symplify/console-color-diff.git",
-            "reference": "ee2267f5f700a8d80a913d87c0df599867bfdf21"
+            "reference": "1ab67703384d90181b89105c5fdffd04b4ab8606"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symplify/console-color-diff/zipball/ee2267f5f700a8d80a913d87c0df599867bfdf21",
-            "reference": "ee2267f5f700a8d80a913d87c0df599867bfdf21",
+            "url": "https://api.github.com/repos/symplify/console-color-diff/zipball/1ab67703384d90181b89105c5fdffd04b4ab8606",
+            "reference": "1ab67703384d90181b89105c5fdffd04b4ab8606",
             "shasum": ""
         },
         "require": {
@@ -5399,12 +5440,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symplify/easy-testing.git",
-            "reference": "4a7de566f71653ccb190e38c65016765c1418069"
+            "reference": "5e98b72b632910698a85eb70d7c85fcce39dba74"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symplify/easy-testing/zipball/4a7de566f71653ccb190e38c65016765c1418069",
-            "reference": "4a7de566f71653ccb190e38c65016765c1418069",
+            "url": "https://api.github.com/repos/symplify/easy-testing/zipball/5e98b72b632910698a85eb70d7c85fcce39dba74",
+            "reference": "5e98b72b632910698a85eb70d7c85fcce39dba74",
             "shasum": ""
         },
         "require": {
@@ -5449,12 +5490,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symplify/package-builder.git",
-            "reference": "3c1d2a497dc4b0301125fb220044c7e2e238be47"
+            "reference": "d28ec2e22235441a4db419074a2e50aeb86abf9c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symplify/package-builder/zipball/3c1d2a497dc4b0301125fb220044c7e2e238be47",
-            "reference": "3c1d2a497dc4b0301125fb220044c7e2e238be47",
+            "url": "https://api.github.com/repos/symplify/package-builder/zipball/d28ec2e22235441a4db419074a2e50aeb86abf9c",
+            "reference": "d28ec2e22235441a4db419074a2e50aeb86abf9c",
             "shasum": ""
         },
         "require": {
@@ -5503,12 +5544,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symplify/set-config-resolver.git",
-            "reference": "e6227cbd12dab1a999b8cea22f9928f15320357c"
+            "reference": "397cc4f35c43df3afacb29c3ef40fdbff705a669"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symplify/set-config-resolver/zipball/e6227cbd12dab1a999b8cea22f9928f15320357c",
-            "reference": "e6227cbd12dab1a999b8cea22f9928f15320357c",
+            "url": "https://api.github.com/repos/symplify/set-config-resolver/zipball/397cc4f35c43df3afacb29c3ef40fdbff705a669",
+            "reference": "397cc4f35c43df3afacb29c3ef40fdbff705a669",
             "shasum": ""
         },
         "require": {
@@ -5557,12 +5598,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symplify/smart-file-system.git",
-            "reference": "119ae9ccbe9f28a3a4af7efe49c24505a8ea72bd"
+            "reference": "bfbc4926b4007dd8cd0bdaaa2ba71e17d911ca6b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symplify/smart-file-system/zipball/119ae9ccbe9f28a3a4af7efe49c24505a8ea72bd",
-            "reference": "119ae9ccbe9f28a3a4af7efe49c24505a8ea72bd",
+            "url": "https://api.github.com/repos/symplify/smart-file-system/zipball/bfbc4926b4007dd8cd0bdaaa2ba71e17d911ca6b",
+            "reference": "bfbc4926b4007dd8cd0bdaaa2ba71e17d911ca6b",
             "shasum": ""
         },
         "require": {
