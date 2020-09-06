@@ -4,10 +4,10 @@
         { "name": "Kerrial Newham", "email": "kerrialbeckettnewham@gmail.com" }
     ],
     "require": {
-    },
-    "require-dev": {
         "rector/rector": "dev-master",
         "phpunit/phpunit": "^9.3"
+    },
+    "require-dev": {
     },
     "autoload-dev": {
         "psr-4": {
