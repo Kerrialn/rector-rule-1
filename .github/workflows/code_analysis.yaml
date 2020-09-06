@@ -27,8 +27,5 @@ jobs:
                     php-version: 7.4
                     coverage: none
 
-            -   run: composer install
+            -   run: composer install --no-progress --ansi
             -   run: ${{ matrix.actions.run }}
-
-
-
