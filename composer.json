@@ -1,0 +1,18 @@
+{
+    "name": "k/rector-local",
+    "authors": [
+        { "name": "Kerrial Newham", "email": "kerrialbeckettnewham@gmail.com" }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "rector/rector": "dev-master",
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Utils\\Rector\\": "utils/rector/src",
+            "Utils\\Rector\\Tests\\": "utils/rector/tests"
+        }
+    }
+}
