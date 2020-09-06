@@ -1,4 +1,4 @@
-name: 'Run CustomConvertPhalconModelPropertiesToSymfonyPropertiesRector Test'
+name: 'Run rector tests'
 
 on:
     pull_request: null
@@ -13,8 +13,8 @@ jobs:
             matrix:
                 actions:
                     -
-                        name: 'run test'
-                        run: vendor/bin/phpunit utils/rector/tests/Rector/Class_/CustomConvertPhalconModelPropertiesToSymfonyPropertiesRector
+                        name: 'run rector tests'
+                        run: vendor/bin/phpunit utils/rector/tests
 
         name: ${{ matrix.actions.name }}
         runs-on: ubuntu-latest
